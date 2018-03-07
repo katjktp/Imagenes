@@ -7,6 +7,9 @@ PImage fotaza;
 void setup(){
   size(600,600);
   
+  fill(155,155,155);
+  rect(180,124,115,20);
+  
   fotaza= loadImage("foticodata.jpg");
   //se pone el nombre de la imagen como se guardó y cómo está convertida. Jpg o png.
 }
